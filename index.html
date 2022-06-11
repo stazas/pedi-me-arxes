@@ -1,5 +1,79 @@
 <!DOCTYPE html>
 <head><meta name="view">
-    <title>amogus</title>
-    </head>
-    <h1>siiiiiis</h1>
+    <style>
+        ul{
+            list-style: none;
+
+        }
+button {
+ text-decoration: none;
+ position: absolute;
+ border: none;
+ font-size: 14px;
+ font-family: inherit;
+ color: #fff;
+ width: 20em;
+ height: 3em;
+ line-height: 2em;
+ text-align: center;
+ background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+ background-size: 300%;
+ border-radius: 30px;
+ z-index: 1;
+}
+
+button:hover {
+ animation: ani 8s linear infinite;
+ border: none;
+}
+
+@keyframes ani {
+ 0% {
+  background-position: 0%;
+ }
+
+ 100% {
+  background-position: 400%;
+ }
+}
+
+button:before {
+ content: '';
+ position: absolute;
+ top: -5px;
+ left: -5px;
+ right: -5px;
+ bottom: -5px;
+ z-index: -1;
+ background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+ background-size: 400%;
+ border-radius: 35px;
+ transition: 1s;
+}
+
+button:hover::before {
+ filter: blur(20px);
+}
+
+button:active {
+ background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+}
+    </style>
+</head>
+<center>
+<ul>
+    <a href="https://www.instagram.com/pedi_me_arxes/">
+    <li><button>Instagram</button></li>
+</a>
+    <br>
+    <br><br><br>
+    <a href="https://discord.gg/JDyDbRHtw6">
+    <li><button>Discord</button></li>
+</a>
+    <br><br><br><br>
+    <a href="https://twitter.com/ArxesMe">
+    <li><button>Twitter</button></li>
+</a>
+
+</ul>
+</center>
